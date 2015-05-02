@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497C32851AF566B100219284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C32841AF566B100219284 /* AppDelegate.swift */; };
+		497C32871AF566B100219284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C32861AF566B100219284 /* ViewController.swift */; };
+		497C328A1AF566B100219284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497C32881AF566B100219284 /* Main.storyboard */; };
+		497C328C1AF566B100219284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497C328B1AF566B100219284 /* Images.xcassets */; };
+		497C328F1AF566B100219284 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497C328D1AF566B100219284 /* LaunchScreen.xib */; };
+		497C329B1AF566B100219284 /* ShakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C329A1AF566B100219284 /* ShakaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497C32951AF566B100219284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497C32771AF566B100219284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497C327E1AF566B100219284;
+			remoteInfo = Shaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497C327F1AF566B100219284 /* Shaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497C32831AF566B100219284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497C32841AF566B100219284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497C32861AF566B100219284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497C32891AF566B100219284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497C328B1AF566B100219284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		497C328E1AF566B100219284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		497C32941AF566B100219284 /* ShakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497C32991AF566B100219284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497C329A1AF566B100219284 /* ShakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497C327C1AF566B100219284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C32911AF566B100219284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497C32761AF566B100219284 = {
+			isa = PBXGroup;
+			children = (
+				497C32811AF566B100219284 /* Shaka */,
+				497C32971AF566B100219284 /* ShakaTests */,
+				497C32801AF566B100219284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497C32801AF566B100219284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497C327F1AF566B100219284 /* Shaka.app */,
+				497C32941AF566B100219284 /* ShakaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497C32811AF566B100219284 /* Shaka */ = {
+			isa = PBXGroup;
+			children = (
+				497C32841AF566B100219284 /* AppDelegate.swift */,
+				497C32861AF566B100219284 /* ViewController.swift */,
+				497C32881AF566B100219284 /* Main.storyboard */,
+				497C328B1AF566B100219284 /* Images.xcassets */,
+				497C328D1AF566B100219284 /* LaunchScreen.xib */,
+				497C32821AF566B100219284 /* Supporting Files */,
+			);
+			path = Shaka;
+			sourceTree = "<group>";
+		};
+		497C32821AF566B100219284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				497C32831AF566B100219284 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		497C32971AF566B100219284 /* ShakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				497C329A1AF566B100219284 /* ShakaTests.swift */,
+				497C32981AF566B100219284 /* Supporting Files */,
+			);
+			path = ShakaTests;
+			sourceTree = "<group>";
+		};
+		497C32981AF566B100219284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				497C32991AF566B100219284 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497C327E1AF566B100219284 /* Shaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497C329E1AF566B100219284 /* Build configuration list for PBXNativeTarget "Shaka" */;
+			buildPhases = (
+				497C327B1AF566B100219284 /* Sources */,
+				497C327C1AF566B100219284 /* Frameworks */,
+				497C327D1AF566B100219284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shaka;
+			productName = Shaka;
+			productReference = 497C327F1AF566B100219284 /* Shaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497C32931AF566B100219284 /* ShakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497C32A11AF566B100219284 /* Build configuration list for PBXNativeTarget "ShakaTests" */;
+			buildPhases = (
+				497C32901AF566B100219284 /* Sources */,
+				497C32911AF566B100219284 /* Frameworks */,
+				497C32921AF566B100219284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497C32961AF566B100219284 /* PBXTargetDependency */,
+			);
+			name = ShakaTests;
+			productName = ShakaTests;
+			productReference = 497C32941AF566B100219284 /* ShakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497C32771AF566B100219284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = rachelrockaway;
+				TargetAttributes = {
+					497C327E1AF566B100219284 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					497C32931AF566B100219284 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 497C327E1AF566B100219284;
+					};
+				};
+			};
+			buildConfigurationList = 497C327A1AF566B100219284 /* Build configuration list for PBXProject "Shaka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497C32761AF566B100219284;
+			productRefGroup = 497C32801AF566B100219284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497C327E1AF566B100219284 /* Shaka */,
+				497C32931AF566B100219284 /* ShakaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497C327D1AF566B100219284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C328A1AF566B100219284 /* Main.storyboard in Resources */,
+				497C328F1AF566B100219284 /* LaunchScreen.xib in Resources */,
+				497C328C1AF566B100219284 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C32921AF566B100219284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497C327B1AF566B100219284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C32871AF566B100219284 /* ViewController.swift in Sources */,
+				497C32851AF566B100219284 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C32901AF566B100219284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C329B1AF566B100219284 /* ShakaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497C32961AF566B100219284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497C327E1AF566B100219284 /* Shaka */;
+			targetProxy = 497C32951AF566B100219284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497C32881AF566B100219284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497C32891AF566B100219284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		497C328D1AF566B100219284 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497C328E1AF566B100219284 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497C329C1AF566B100219284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497C329D1AF566B100219284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497C329F1AF566B100219284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		497C32A01AF566B100219284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		497C32A21AF566B100219284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaka.app/Shaka";
+			};
+			name = Debug;
+		};
+		497C32A31AF566B100219284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaka.app/Shaka";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497C327A1AF566B100219284 /* Build configuration list for PBXProject "Shaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C329C1AF566B100219284 /* Debug */,
+				497C329D1AF566B100219284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497C329E1AF566B100219284 /* Build configuration list for PBXNativeTarget "Shaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C329F1AF566B100219284 /* Debug */,
+				497C32A01AF566B100219284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		497C32A11AF566B100219284 /* Build configuration list for PBXNativeTarget "ShakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C32A21AF566B100219284 /* Debug */,
+				497C32A31AF566B100219284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497C32771AF566B100219284 /* Project object */;
+}
