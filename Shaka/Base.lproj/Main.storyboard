@@ -18,8 +18,11 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <items>
-                                <tabBarItem systemItem="favorites" id="Nvy-SJ-wV3"/>
-                                <tabBarItem systemItem="more" id="Lpi-aK-IE6"/>
+                                <tabBarItem title="Forecasts" image="ic_satellite_black_24dp copy" id="Nvy-SJ-wV3"/>
+                                <tabBarItem title="Favorite Spots" image="heart295-2" id="WRv-bV-6sa"/>
+                                <tabBarItem title="Add Report" image="add202" id="nQH-rU-d4G"/>
+                                <tabBarItem title="Buddies" image="ic_face_black_24dpcopy" id="Wt0-nC-ZuH"/>
+                                <tabBarItem title="Menu" image="ic_more_horiz_black_18dp" id="Lpi-aK-IE6"/>
                             </items>
                         </tabBar>
                         <sections>
@@ -128,7 +131,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXd-62-qw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="607" y="316.99999999999994"/>
+            <point key="canvasLocation" x="621" y="316"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="ZK2-jH-Ngq">
@@ -160,12 +163,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWq-gc-8lf">
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ovy-mZ-zFa">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="geO-fb-YOm"/>
-                                    <tabBarItem systemItem="more" id="Kfj-D2-Jds"/>
+                                    <tabBarItem title="Forecasts" image="ic_satellite_black_24dp copy" id="PXe-mp-Wgp"/>
+                                    <tabBarItem title="Favorite Spots" image="heart295-2" id="YVI-9s-ix1"/>
+                                    <tabBarItem title="Add Report" image="add202" id="bX3-ny-ecU"/>
+                                    <tabBarItem title="Buddies" image="ic_face_black_24dpcopy" id="hQu-vw-VNM"/>
+                                    <tabBarItem title="Menu" image="ic_more_horiz_black_18dp" id="5vQ-xm-QoY"/>
                                 </items>
                             </tabBar>
                         </subviews>
@@ -235,4 +241,11 @@
             <point key="canvasLocation" x="269" y="316.99999999999994"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="add202" width="26" height="26"/>
+        <image name="heart295-2" width="32" height="32"/>
+        <image name="ic_face_black_24dpcopy" width="24" height="24"/>
+        <image name="ic_more_horiz_black_18dp" width="36" height="36"/>
+        <image name="ic_satellite_black_24dp copy" width="40" height="40"/>
+    </resources>
 </document>
