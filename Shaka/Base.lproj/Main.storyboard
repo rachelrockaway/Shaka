@@ -18,8 +18,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <items>
-                                <tabBarItem title="Forecasts" image="ic_satellite_black_24dp copy" id="Nvy-SJ-wV3"/>
-                                <tabBarItem title="Favorite Spots" image="heart295-2" id="WRv-bV-6sa"/>
+                                <tabBarItem title="Manage Favorites" image="heart295-2" id="WRv-bV-6sa"/>
                                 <tabBarItem title="Add Report" image="add202" id="nQH-rU-d4G"/>
                                 <tabBarItem title="Buddies" image="ic_face_black_24dpcopy" id="Wt0-nC-ZuH"/>
                                 <tabBarItem title="Menu" image="ic_more_horiz_black_18dp" id="Lpi-aK-IE6"/>
@@ -219,6 +218,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plH-Ay-fLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="955" y="316.99999999999994"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="x74-Km-SK0">
+            <objects>
+                <tableViewController id="jCB-pG-KjA" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="JTG-fT-Dvo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="K65-bt-2ca">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K65-bt-2ca" id="Y2L-Rj-vB2">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jCB-pG-KjA" id="CJd-qa-B1F"/>
+                            <outlet property="delegate" destination="jCB-pG-KjA" id="LfT-PD-pVX"/>
+                        </connections>
+                    </tableView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9T-2Z-zXL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="316"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6w1-72-1sW">
