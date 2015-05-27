@@ -32,8 +32,9 @@
 		497C32C81AF567CC00219284 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497C32C21AF567CB00219284 /* ParseFacebookUtils.framework */; };
 		497C32C91AF567CC00219284 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497C32C31AF567CB00219284 /* ParseFacebookUtilsV4.framework */; };
 		497C32CA1AF567CC00219284 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497C32C41AF567CB00219284 /* ParseUI.framework */; };
-		497C32CF1AF5A3FA00219284 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */; };
-		499C1B921B161F5D00C4975D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */; };
+		499C1B961B16234A00C4975D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B951B16234A00C4975D /* TimelineTableViewController.swift */; };
+		499C1B9C1B16239C00C4975D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B9B1B16239C00C4975D /* ComposeViewController.swift */; };
+		499C1B9E1B16242A00C4975D /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B9D1B16242A00C4975D /* ReportTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +78,9 @@
 		497C32C31AF567CB00219284 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		497C32C41AF567CB00219284 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		497C32CB1AF56A6F00219284 /* Shaka-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shaka-Bridging-Header.h"; sourceTree = "<group>"; };
-		497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
-		499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		499C1B951B16234A00C4975D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		499C1B9B1B16239C00C4975D /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		499C1B9D1B16242A00C4975D /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,8 @@
 		497C32761AF566B100219284 = {
 			isa = PBXGroup;
 			children = (
+				499C1B9D1B16242A00C4975D /* ReportTableViewCell.swift */,
+				499C1B9B1B16239C00C4975D /* ComposeViewController.swift */,
 				497C32A41AF566B800219284 /* Frameworks */,
 				497C32811AF566B100219284 /* Shaka */,
 				497C32971AF566B100219284 /* ShakaTests */,
@@ -141,10 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				497C32841AF566B100219284 /* AppDelegate.swift */,
-				499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */,
+				499C1B951B16234A00C4975D /* TimelineTableViewController.swift */,
 				497C32861AF566B100219284 /* ViewController.swift */,
 				497C32881AF566B100219284 /* Main.storyboard */,
-				497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */,
 				497C328B1AF566B100219284 /* Images.xcassets */,
 				497C328D1AF566B100219284 /* LaunchScreen.xib */,
 				497C32821AF566B100219284 /* Supporting Files */,
@@ -304,9 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497C32CF1AF5A3FA00219284 /* ComposeViewController.swift in Sources */,
+				499C1B9C1B16239C00C4975D /* ComposeViewController.swift in Sources */,
 				497C32871AF566B100219284 /* ViewController.swift in Sources */,
-				499C1B921B161F5D00C4975D /* TimelineTableViewController.swift in Sources */,
+				499C1B961B16234A00C4975D /* TimelineTableViewController.swift in Sources */,
+				499C1B9E1B16242A00C4975D /* ReportTableViewCell.swift in Sources */,
 				497C32851AF566B100219284 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
