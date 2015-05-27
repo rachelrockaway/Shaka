@@ -33,6 +33,7 @@
 		497C32C91AF567CC00219284 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497C32C31AF567CB00219284 /* ParseFacebookUtilsV4.framework */; };
 		497C32CA1AF567CC00219284 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497C32C41AF567CB00219284 /* ParseUI.framework */; };
 		497C32CF1AF5A3FA00219284 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */; };
+		499C1B921B161F5D00C4975D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		497C32C41AF567CB00219284 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		497C32CB1AF56A6F00219284 /* Shaka-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shaka-Bridging-Header.h"; sourceTree = "<group>"; };
 		497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				497C32841AF566B100219284 /* AppDelegate.swift */,
+				499C1B911B161F5D00C4975D /* TimelineTableViewController.swift */,
 				497C32861AF566B100219284 /* ViewController.swift */,
 				497C32881AF566B100219284 /* Main.storyboard */,
 				497C32CE1AF5A3FA00219284 /* ComposeViewController.swift */,
@@ -303,6 +306,7 @@
 			files = (
 				497C32CF1AF5A3FA00219284 /* ComposeViewController.swift in Sources */,
 				497C32871AF566B100219284 /* ViewController.swift in Sources */,
+				499C1B921B161F5D00C4975D /* TimelineTableViewController.swift in Sources */,
 				497C32851AF566B100219284 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				497C32A01AF566B100219284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497C32A11AF566B100219284 /* Build configuration list for PBXNativeTarget "ShakaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				497C32A31AF566B100219284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
