@@ -280,7 +280,7 @@
                     <navigationItem key="navigationItem" id="Ine-Bl-jy3">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="tar-6D-Ma1">
                             <connections>
-                                <action selector="SendReport:" destination="JXw-ih-xiD" id="RWE-yU-oht"/>
+                                <action selector="SendReport:" destination="JXw-ih-xiD" id="FFZ-mw-HQ6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -288,7 +288,9 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="CharacterRemainingLabel" destination="2Gb-Qz-Dy6" id="aXI-KY-hM7"/>
-                        <outlet property="ReportTextView" destination="ExE-nV-cX0" id="kWF-hH-KAR"/>
+                        <outlet property="CharactersRemainingLabel" destination="2Gb-Qz-Dy6" id="vAM-Xd-a3M"/>
+                        <outlet property="ReportTextView" destination="ExE-nV-cX0" id="9Nn-vW-WnJ"/>
+                        <outlet property="SendReport" destination="tar-6D-Ma1" id="tbQ-xH-sMS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plH-Ay-fLe" userLabel="First Responder" sceneMemberID="firstResponder"/>

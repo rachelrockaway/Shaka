@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimelineTableViewController: UITableViewController {
+class TimelineTableViewController: UITableViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
