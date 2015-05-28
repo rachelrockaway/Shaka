@@ -1,5 +1,5 @@
 //
-//  ReportTableViewCell.swift
+//  ReportsTableViewCell.swift
 //  Shaka
 //
 //  Created by Rachel Stevenson on 5/27/15.
@@ -8,15 +8,13 @@
 
 import UIKit
 
-class ReportTableViewCell: UITableViewCell {
+class ReportsTableViewCell: UITableViewCell {
 
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-    
+
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

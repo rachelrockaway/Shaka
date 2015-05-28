@@ -35,6 +35,7 @@
 		499C1B961B16234A00C4975D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B951B16234A00C4975D /* TimelineTableViewController.swift */; };
 		499C1B9C1B16239C00C4975D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B9B1B16239C00C4975D /* ComposeViewController.swift */; };
 		499C1B9E1B16242A00C4975D /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B9D1B16242A00C4975D /* ReportTableViewCell.swift */; };
+		499C1BA01B16AE5000C4975D /* ReportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C1B9F1B16AE5000C4975D /* ReportsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		499C1B951B16234A00C4975D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 		499C1B9B1B16239C00C4975D /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		499C1B9D1B16242A00C4975D /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		499C1B9F1B16AE5000C4975D /* ReportsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				497C32841AF566B100219284 /* AppDelegate.swift */,
 				499C1B951B16234A00C4975D /* TimelineTableViewController.swift */,
 				497C32861AF566B100219284 /* ViewController.swift */,
+				499C1B9F1B16AE5000C4975D /* ReportsTableViewCell.swift */,
 				497C32881AF566B100219284 /* Main.storyboard */,
 				497C328B1AF566B100219284 /* Images.xcassets */,
 				497C328D1AF566B100219284 /* LaunchScreen.xib */,
@@ -312,6 +315,7 @@
 				499C1B961B16234A00C4975D /* TimelineTableViewController.swift in Sources */,
 				499C1B9E1B16242A00C4975D /* ReportTableViewCell.swift in Sources */,
 				497C32851AF566B100219284 /* AppDelegate.swift in Sources */,
+				499C1BA01B16AE5000C4975D /* ReportsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

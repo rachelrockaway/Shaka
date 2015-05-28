@@ -19,7 +19,6 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <items>
                                 <tabBarItem title="Manage Favorites" image="heart295-2" id="WRv-bV-6sa"/>
-                                <tabBarItem title="Add Report" image="add202" id="nQH-rU-d4G"/>
                                 <tabBarItem title="Buddies" image="ic_face_black_24dpcopy" id="Wt0-nC-ZuH"/>
                                 <tabBarItem title="Menu" image="ic_more_horiz_black_18dp" id="Lpi-aK-IE6"/>
                             </items>
@@ -27,7 +26,7 @@
                         <sections>
                             <tableViewSection id="li7-ov-Hfr">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="q6b-ua-ylf">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="q6b-ua-ylf">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q6b-ua-ylf" id="STp-DY-C2J">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -63,7 +62,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="pEL-YR-k2L" customClass="ReportTableViewCell" customModule="Shaka" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="148" id="pEL-YR-k2L" customClass="ReportsTableViewCell" customModule="Shaka" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pEL-YR-k2L" id="gjx-0e-GSD">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -80,8 +79,8 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIJ-MY-G3x">
-                                                    <rect key="frame" x="213" y="118" width="43" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIJ-MY-G3x">
+                                                    <rect key="frame" x="214" y="118" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -184,20 +183,16 @@
                             <outlet property="delegate" destination="UrM-co-I13" id="XHz-NV-vDX"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gF0-bB-6St">
-                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="E8C-wj-7ke"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Ss-Fh-wba">
-                            <connections>
-                                <segue destination="JXw-ih-xiD" kind="show" identifier="AddReportSegue" id="zSD-db-MLn"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" id="j2u-5i-1ik">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="Gpx-qT-F2T"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="txJ-S0-agN"/>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXd-62-qw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="621" y="316"/>
+            <point key="canvasLocation" x="657" y="293"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="ZK2-jH-Ngq">
@@ -217,15 +212,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khX-tw-L4q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khX-tw-L4q">
                                 <rect key="frame" x="139" y="78" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ExE-nV-cX0">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExE-nV-cX0">
                                 <rect key="frame" x="20" y="113" width="281" height="120"/>
-                                <color key="backgroundColor" red="0.87454530419999998" green="0.87454530419999998" blue="0.87454530419999998" alpha="0.46000000000000002" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -234,7 +228,6 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem title="Favorite Spots" image="heart295-2" id="YVI-9s-ix1"/>
-                                    <tabBarItem title="Add Report" image="add202" id="bX3-ny-ecU"/>
                                     <tabBarItem title="Buddies" image="ic_face_black_24dpcopy" id="hQu-vw-VNM"/>
                                     <tabBarItem title="Menu" image="ic_more_horiz_black_18dp" id="5vQ-xm-QoY"/>
                                 </items>
@@ -280,22 +273,20 @@
                     <navigationItem key="navigationItem" id="Ine-Bl-jy3">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="tar-6D-Ma1">
                             <connections>
-                                <action selector="SendReport:" destination="JXw-ih-xiD" id="FFZ-mw-HQ6"/>
+                                <action selector="sendReport:" destination="JXw-ih-xiD" id="n7s-Hy-qrC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="CharacterRemainingLabel" destination="2Gb-Qz-Dy6" id="aXI-KY-hM7"/>
-                        <outlet property="CharactersRemainingLabel" destination="2Gb-Qz-Dy6" id="vAM-Xd-a3M"/>
-                        <outlet property="ReportTextView" destination="ExE-nV-cX0" id="9Nn-vW-WnJ"/>
-                        <outlet property="SendReport" destination="tar-6D-Ma1" id="tbQ-xH-sMS"/>
+                        <outlet property="charactersRemainingLabel" destination="2Gb-Qz-Dy6" id="w8j-oB-kkx"/>
+                        <outlet property="reportTextView" destination="ExE-nV-cX0" id="DdA-Yl-mRY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plH-Ay-fLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="955" y="316"/>
+            <point key="canvasLocation" x="1019" y="316"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6w1-72-1sW">
@@ -319,7 +310,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="add202" width="26" height="26"/>
         <image name="heart295-2" width="32" height="32"/>
         <image name="ic_face_black_24dpcopy" width="24" height="24"/>
         <image name="ic_more_horiz_black_18dp" width="36" height="36"/>

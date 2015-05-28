@@ -8,21 +8,40 @@
 
 import UIKit
 
-class ComposeViewController: UIViewController, UITextViewDelegate {
+class ComposeViewController: UIViewController, UITextViewDelegate  {
 
-    @IBOutlet weak var ReportTextView: UITextView!
+    @IBOutlet weak var reportTextView: UITextView!
     
-    @IBOutlet weak var CharactersRemainingLabel: UILabel!
+    @IBOutlet weak var charactersRemainingLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        reportTextView.layer.borderColor = UIColor.blackColor().CGColor
+        reportTextView.layer.borderWidth = 0.5
+        reportTextView.layer.cornerRadius = 5
+        
+        reportTextView.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func SendReport(sender: AnyObject) {
+    @IBAction func sendReport(sender: AnyObject) {
+        var report = PFObject(className: "Reports")
+        report["content"] = reportTextView.text
+        report["reporter"] = PFUser.currentUser()
+        
+        report.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            if (success) {
+                //The object has been saved
+            } else {
+                // There was a problem
+            }
     }
+            self.navigationController?.popToRootViewControllerAnimated(true)
+}
     
     
     override func didReceiveMemoryWarning() {
